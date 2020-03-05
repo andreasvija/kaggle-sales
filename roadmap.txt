@@ -1,0 +1,45 @@
+-plaan
+-puhastamine
+
+-EDA
+ise
+datacamp kursuse järgi
+
+-feature generation
+featurite nimekiri
+statistika datacamp kursustelt featurid
+time series datacamp kursustelt featurid
+artiklite põhjal featurid
+metadata word embedding featurid
+kaggle kursuselt featured
+kernelitest ja discussionitest featureid
+
+-feature selection
+RF/GBT
+paljude featuritega mudelite graafikud
+XGBoost parimad featured
+kernelist
+proovida suurem algne clip
+alamhulgad
+arvutada 2-3 dataseti nii develop kui submit jaoks
+
+-tuning
+RF,xgboost
+GBT explanation
+sklearn XSearchCV, time series CV
+erinevad lingid
+1. üksikud parameetrid heasse kohta tähtsuse järjekorras
+2. põhjalik gridsearch 
+3. väike lokaalne gridsearch suurema testseti peal
+sklearn pipeline
+
+-ensembling
+esimene kiht: xgboost/gbr eri andmetega, sügavustega?, rfid eri andmetega, KNN?, veel?
+teine kiht: linear model suure regularizationiga või GBT 2 v 3 depthiga
+rohkem mudeleid?
+eri ansambleid?
+
+-submit
+kaks hästi erinevat?
+validation parim ja leaderboard parim?
+teine kiht linear vs GBT
